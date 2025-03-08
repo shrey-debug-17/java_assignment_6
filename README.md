@@ -1,9 +1,11 @@
 📌 Overview
+
 This project implements the Strategy Design Pattern to simulate different duck behaviors such as flying and swimming. Each duck can have different behaviors, and these behaviors are assigned dynamically using interfaces and composition rather than inheritance.
 
 The Strategy Pattern allows for easy modification and extension of duck behaviors without changing the existing classes.
 
 📜 Table of Contents
+
 Introduction
 Design Pattern Used
 Project Structure
@@ -14,6 +16,7 @@ Contributing
 License
 
 📖 Introduction
+
 This Java program models different types of ducks and their behaviors using the Strategy Pattern. The program allows:
 ✔ Defining flying and swimming behaviors as separate interfaces.
 ✔ Implementing different behaviors like Fly, NotFly, Swim, Float, and Drown.
@@ -21,6 +24,7 @@ This Java program models different types of ducks and their behaviors using the 
 ✔ Using an interactive menu to test different duck types.
 
 🛠 Design Pattern Used
+
 This project uses the Strategy Pattern, which helps define a family of algorithms, encapsulate them, and make them interchangeable.
 ✅ Promotes flexibility and reusability.
 ✅ Eliminates the need for large if-else statements.
